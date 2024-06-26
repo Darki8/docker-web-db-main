@@ -19,12 +19,12 @@ This will open the project in a Docker container with all the necessary dependen
 
 ### Option 1: web-container
 
-[Launch Dev Container - Folder 1](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/folder1)
+[Launch Dev Container - Folder 1](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/web-container)
 
 [![Open in Remote - Containers](https://xebia.com/wp-content/uploads/2023/11/v1.svg)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/web-container)
 
 ### Option 2: mysql-container
 
-[Launch Dev Container - Folder 2](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/folder2)
+[Launch Dev Container - Folder 2](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/mysql-container)
 
 [![Open in Remote - Containers](https://xebia.com/wp-content/uploads/2023/11/v1.svg)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/mysql-container)
