@@ -1,0 +1,9 @@
+{
+    "name": "mysql-container",
+    "dockerComposeFile": "../../docker-compose.yaml",
+    "service": "mysql",
+    "shutdownAction": "none",
+    "workspaceFolder": "/workspace/mysql-src",
+    "mounts": [
+        "source=/workspace/mysql-src,target=/workspace,type=bind,consistency=cached"]
+}

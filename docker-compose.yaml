@@ -1,0 +1,44 @@
+services:
+
+  web:
+    build: 
+      context: .
+      dockerfile: dockerfile
+    env_file:
+      - .env
+    ports:
+      - 5000:5000
+    networks:
+      - backend
+    volumes:
+      - .:/workspace:cached
+
+
+  mysql:
+    restart: always
+    container_name: "mysql"
+    image: mysql:latest
+    command: ["--mysql-native-password=ON"]
+    ports:
+      - 3306:3306
+    env_file:
+      - .env
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+    volumes:
+    #  - ./mysql-data:/var/lib/mysql
+      - ./mysql-src/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+      - .:/workspace:cached
+      ###
+    networks:
+      - backend
+    
+
+#volumes:
+#  mysql-data:
+
+networks:
+    backend:
