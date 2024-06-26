@@ -1,0 +1,21 @@
+{
+    "name": "combined-container",
+    "dockerComposeFile": "../docker-compose.yaml",
+    "service": "web",
+    "shutdownAction": "none",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+        		"ms-python.python",
+        		"ms-azuretools.vscode-docker",
+        		"formulahendry.vscode-mysql"
+            ]
+        }
+    },
+    "mounts": [
+        "source=/workspace/mysql-src,target=/workspace/mysql-src,type=bind,consistency=cached",
+        "source=/workspace/web-src,target=/workspace/web-src,type=bind,consistency=cached"
+    ],
+    "runServices": ["web", "mysql"]
+}

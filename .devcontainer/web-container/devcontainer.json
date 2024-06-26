@@ -1,7 +1,0 @@
-{
-    "name": "web-container",
-    "dockerComposeFile": "../../docker-compose.yaml",
-    "service": "web",
-    "shutdownAction": "none",
-    "workspaceFolder": "/workspace/web-src"
-}
