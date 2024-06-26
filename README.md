@@ -15,24 +15,15 @@ This will open the project in a Docker container with all the necessary dependen
 )
 
 
-# Docker Web DB Project
+# Launching the Project in a DevContainer
 
-This is an online registration page made using Flask and MySQL database.
-Required things to run this project are MySQL, Python, Flask, Flask-MySQLdb.
-You will find all dependencies for this project in the `requirements.txt` file.
+This project uses DevContainers to provide a consistent development environment. We have two separate DevContainer configurations:
 
-## Launch Dev Container
+1. **MySQL Source Container**: This container is used for database development and is configured in `.devcontainer/mysql-src/devcontainer.json`.
+2. **Web Container**: This container is used for web development and is configured in `.devcontainer/web-container/devcontainer.json`.
 
-Once you have Visual Studio Code and the Remote - Containers extension installed, you can launch the dev container by clicking one of the buttons below:
+To launch the project in a DevContainer, click on the buttons below:
 
-### MySQL Dev Container
+<a href="vscode://ms-vscode-remote.remote-containers/cloneInContainer?folderUri=file%3A%2F%2F%2F.%2Fdevcontainer%2Fmysql-src&containerName=mysql-src"><button>Launch MySQL Source Container</button></a>
 
-[![Open MySQL Dev Container](https://xebia.com/wp-content/uploads/2023/11/v1.svg)](vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/mysql-src)
-
-### Web Dev Container
-
-[![Open Web Dev Container](https://xebia.com/wp-content/uploads/2023/11/v1.svg)](vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/web-container)
-
-
-
-
+<a href="vscode://ms-vscode-remote.remote-containers/cloneInContainer?folderUri=file%3A%2F%2F%2F.%2Fdevcontainer%2Fweb-container&containerName=web-container"><button>Launch Web Container</button></a>
