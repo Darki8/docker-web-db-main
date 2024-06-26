@@ -1,6 +1,9 @@
 This is a Simple Recipe Database to showcase how a website is run in Docker and how it can acces a Database.
 All Inkusive with the devcontainer.
 
+If you want to Change the Example Users or Passwords change them ONLY IN THE .env FILE!
+Or if you want to add more MYSQL Statements to initzialize on boot add them to the init_db.sh
+
 
 Launch Dev Container
 Once you have Visual Studio Code and the Remote - Containers extension installed, you can launch the dev container by clicking the button below:
