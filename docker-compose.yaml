@@ -11,7 +11,8 @@ services:
     networks:
       - backend
     volumes:
-      - .:/workspace:cached
+      - ../web-src:/workspace/web-src
+
 
 
   mysql:
@@ -31,7 +32,7 @@ services:
     volumes:
     #  - ./mysql-data:/var/lib/mysql
       - ./mysql-src/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
-      - .:/workspace:cached
+      - ../mysql-src:/workspace/mysql-src
       ###
     networks:
       - backend

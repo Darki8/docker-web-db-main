@@ -3,7 +3,7 @@
     "dockerComposeFile": "../docker-compose.yaml",
     "service": "web",
     "shutdownAction": "none",
-    "workspaceFolder": "/workspace",
+    "workspaceFolder": "/code",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -16,6 +16,5 @@
     "mounts": [
         "source=/workspace/mysql-src,target=/workspace/mysql-src,type=bind,consistency=cached",
         "source=/workspace/web-src,target=/workspace/web-src,type=bind,consistency=cached"
-    ],
-    "runServices": ["web", "mysql"]
+    ]
 }
