@@ -14,7 +14,6 @@ This will open the project in a Docker container with all the necessary dependen
     https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git
 )
 
-
 # Launching the Project in a DevContainer
 
 This project uses DevContainers to provide a consistent development environment. We have two separate DevContainer configurations:
@@ -22,8 +21,8 @@ This project uses DevContainers to provide a consistent development environment.
 1. **MySQL Source Container**: This container is used for database development and is configured in `.devcontainer/mysql-src/devcontainer.json`.
 2. **Web Container**: This container is used for web development and is configured in `.devcontainer/web-container/devcontainer.json`.
 
-To launch the project in a DevContainer, click on the buttons below:
+To launch the project in a DevContainer, click on the links below:
 
-<a href="vscode://ms-vscode-remote.remote-containers/cloneInContainer?folderUri=file%3A%2F%2F%2F.%2Fdevcontainer%2Fmysql-src&containerName=mysql-src"><button>Launch MySQL Source Container</button></a>
+[Launch MySQL Source Container](vscode://ms-vscode-remote.remote-containers/cloneInContainer?folderUri=file%3A%2F%2F%2F.%2Fdevcontainer%2Fmysql-src&containerName=mysql-src)
 
-<a href="vscode://ms-vscode-remote.remote-containers/cloneInContainer?folderUri=file%3A%2F%2F%2F.%2Fdevcontainer%2Fweb-container&containerName=web-container"><button>Launch Web Container</button></a>
+[Launch Web Container](vscode://ms-vscode-remote.remote-containers/cloneInContainer?folderUri=file%3A%2F%2F%2F.%2Fdevcontainer%2Fweb-container&containerName=web-container)
