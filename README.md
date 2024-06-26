@@ -29,13 +29,13 @@ Welcome to my project! This repository contains configurations for two developme
 
 This container sets up a MySQL development environment.
 
-[![Open in DevContainer](https://img.shields.io/badge/Open%20in-DevContainer%20MySQL-blue?logo=visual-studio-code&style=flat-square)](vscode://vscode-remote/containers/devcontainer+${PWD}/.devcontainer/mysql-src)
+[![Open in DevContainer](https://img.shields.io/badge/Open%20in-DevContainer%20MySQL-blue?logo=visual-studio-code&style=flat-square)](vscode://vscode-remote/containers%2Fgithub.com%2Fyour-username%2Fyour-repo%2Fblob%2Fmain%2F.devcontainer%2Fmysql-src%2Fdevcontainer.json)
 
 ### Web Container
 
 This container sets up a web development environment.
 
-[![Open in DevContainer](https://img.shields.io/badge/Open%20in-DevContainer%20Web-blue?logo=visual-studio-code&style=flat-square)](vscode://vscode-remote/containers/devcontainer+${PWD}/.devcontainer/web-container)
+[![Open in DevContainer](https://img.shields.io/badge/Open%20in-DevContainer%20Web-blue?logo=visual-studio-code&style=flat-square)](vscode://vscode-remote/containers%2Fgithub.com%2Fyour-username%2Fyour-repo%2Fblob%2Fmain%2F.devcontainer%2Fweb-container%2Fdevcontainer.json)
 
 ## Getting Started
 
