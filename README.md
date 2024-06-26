@@ -15,16 +15,20 @@ This will open the project in a Docker container with all the necessary dependen
 )
 
 
+# Docker Web DB Project
+
+This is an online registration page made using Flask and MySQL database.
+Required things to run this project are MySQL, Python, Flask, Flask-MySQLdb.
+You will find all dependencies for this Project in the `requirements.txt` file.
+
 ## Launch Dev Container
 
-### Option 1: web-container
+Once you have Visual Studio Code and the Remote - Containers extension installed, you can launch the dev container by clicking one of the buttons below:
 
-[Launch Dev Container - web-container](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/web-container)
+### MySQL Dev Container
 
-[![Open in Remote - Containers](https://xebia.com/wp-content/uploads/2023/11/v1.svg)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/web-container)
+[![Open MySQL Dev Container](https://xebia.com/wp-content/uploads/2023/11/v1.svg)](vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/mysql-src)
 
-### Option 2: mysql-src
+### Web Dev Container
 
-[Launch Dev Container - mysql-src](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/mysql-src)
-
-[![Open in Remote - Containers](https://xebia.com/wp-content/uploads/2023/11/v1.svg)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/mysql-src)
+[![Open Web Dev Container](https://xebia.com/wp-content/uploads/2023/11/v1.svg)](vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/web-container)
