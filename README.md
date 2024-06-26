@@ -19,7 +19,7 @@ This will open the project in a Docker container with all the necessary dependen
 
 This is an online registration page made using Flask and MySQL database.
 Required things to run this project are MySQL, Python, Flask, Flask-MySQLdb.
-You will find all dependencies for this Project in the `requirements.txt` file.
+You will find all dependencies for this project in the `requirements.txt` file.
 
 ## Launch Dev Container
 
@@ -27,12 +27,12 @@ Once you have Visual Studio Code and the Remote - Containers extension installed
 
 ### MySQL Dev Container
 
-[
-    ![Open MySQL Dev Container](https://xebia.com/wp-content/uploads/2023/11/v1.svg)
-](
-    vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/mysql-src
-)
+[![Open MySQL Dev Container](https://xebia.com/wp-content/uploads/2023/11/v1.svg)](vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/mysql-src)
 
 ### Web Dev Container
 
 [![Open Web Dev Container](https://xebia.com/wp-content/uploads/2023/11/v1.svg)](vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/web-container)
+
+
+
+
