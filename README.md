@@ -27,7 +27,11 @@ Once you have Visual Studio Code and the Remote - Containers extension installed
 
 ### MySQL Dev Container
 
-[![Open MySQL Dev Container](https://xebia.com/wp-content/uploads/2023/11/v1.svg)](vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/mysql-src)
+[
+    ![Open MySQL Dev Container](https://xebia.com/wp-content/uploads/2023/11/v1.svg)
+](
+    vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Darki8/docker-web-db-main.git&path=.devcontainer/mysql-src
+)
 
 ### Web Dev Container
 
